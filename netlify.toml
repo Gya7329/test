@@ -1,0 +1,9 @@
+
+[[redirects]]
+  from = “/v1/*”
+  to = “https://apiv2.shiprocket.in/v1/:splat"
+  status = 200
+[[redirects]]
+  from = “/*”
+  to = “/index.html”
+  status = 200
