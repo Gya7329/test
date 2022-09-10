@@ -1,7 +1,7 @@
 
 [[redirects]]
   from = “/v1/*”
-  to = “https://apiv2.shiprocket.in/v1/:splat"
+  to = “https://apiv2.shiprocket.in/"
   status = 200
 [[redirects]]
   from = “/*”
