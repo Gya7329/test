@@ -4,7 +4,7 @@ import TodoList from "./components/TodoList";
 
 function App() {
   useEffect(() => {
-    fetch("v1/external/auth/login", {
+    fetch("https://apiv2.shiprocket.in/v1/external/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
